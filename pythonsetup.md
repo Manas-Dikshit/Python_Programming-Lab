@@ -288,11 +288,11 @@ python3 -m venv .venv
 
 ```mermaid
 flowchart TD
-    A[ Create .venv] --> B{Which OS?}
-    B -->|Windows PowerShell| C[.venv\Scripts\Activate.ps1]
-    B -->|Windows CMD| D[.venv\Scripts\activate.bat]
-    B -->|macOS / Linux| E[source .venv/bin/activate]
-    C --> F[👀 See '(.venv)' in prompt]
+    A["Create .venv"] --> B{"Which OS?"}
+    B -->|"Windows PowerShell"| C[".venv\Scripts\Activate.ps1"]
+    B -->|"Windows CMD"| D[".venv\Scripts\activate.bat"]
+    B -->|"macOS / Linux"| E["source .venv/bin/activate"]
+    C --> F["See (.venv) in prompt"]
     D --> F
     E --> F
 ```
