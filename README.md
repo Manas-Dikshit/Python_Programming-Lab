@@ -7,13 +7,16 @@ Lab-wise codes and documentation for **SUIIT – CSE B.Tech 5th Semester**.
 ```
 PP_Lab/
 ├── lab1/
-│   └── assignment1.py   # Lab 1: Basics (print, patterns, newline)
+│   └── assignment1.py      # Lab 1: Basics (print, patterns, newline)
+│
 ├── lab2/
-│   ├── assignment2.py   # Lab 2: Variables, data types, scope
-│   ├── labactivity1.py  # Assignment & dynamic typing
-│   ├── labactivity2.py  # Local & global scope
-│   ├── labactivity3.py  # input(), print() parameters
-│   └── Lab2.docx        # Lab 2 documentation
+│   ├── assignment2.py      # Lab 2: Variables, data types, scope
+│   ├── labactivity1.py     # Assignment & dynamic typing
+│   ├── labactivity2.py     # Local & global scope
+│   ├── labactivity3.py     # input() and print() parameters
+│   ├── Lab2.docx           # Lab 2 documentation
+│   └── test.py             # Testing of f-strings
+│
 └── README.md
 ```
 
