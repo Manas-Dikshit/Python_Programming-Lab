@@ -24,7 +24,7 @@ Clone the repo:
 ```sh
 git clone https://github.com/Manas-Dikshit/Python_Programming-Lab.git
 ```
-Go to the main folder
+Go to the Python_Programming-Lab folder
 
 Run any script with:
 
