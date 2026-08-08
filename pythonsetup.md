@@ -1,4 +1,4 @@
-# 🐍 Complete Python Setup Guide
+# Complete Python Setup Guide
 
 > **Windows · macOS · Linux** — step-by-step instructions to get a full, production-ready Python environment on your machine.
 
