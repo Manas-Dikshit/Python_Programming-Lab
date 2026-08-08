@@ -372,10 +372,10 @@ pip list
 
 | Editor | Best for | Install |
 |--------|----------|---------|
-| **VS Code** 🖥️ | Everyone — best all-rounder | [code.visualstudio.com](https://code.visualstudio.com) |
-| **PyCharm** 🚀 | Serious Python projects | [jetbrains.com/pycharm](https://www.jetbrains.com/pycharm) |
-| **Sublime Text** ⚡ | Lightweight & fast | [sublimetext.com](https://www.sublimetext.com) |
-| **Jupyter Notebook** 📓 | Data science / research | `pip install jupyter` |
+| **VS Code**  | Everyone — best all-rounder | [code.visualstudio.com](https://code.visualstudio.com) |
+| **PyCharm**  | Serious Python projects | [jetbrains.com/pycharm](https://www.jetbrains.com/pycharm) |
+| **Sublime Text**  | Lightweight & fast | [sublimetext.com](https://www.sublimetext.com) |
+| **Jupyter Notebook**  | Data science / research | `pip install jupyter` |
 
 ### VS Code quick setup (recommended)
 
@@ -399,8 +399,8 @@ jupyter notebook
 flowchart LR
     A[ mkdir my-project] --> B[cd my-project]
     B --> C[ python -m venv .venv]
-    C --> D[▶ Activate venv]
-    D --> E[⬆ pip install -U pip]
+    C --> D[ Activate venv]
+    D --> E[ pip install -U pip]
     E --> F[ pip install <deps>]
     F --> G[ Write code & run]
     G --> H[ pip freeze > requirements.txt]
