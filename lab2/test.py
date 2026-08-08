@@ -6,6 +6,9 @@ age = 20
 #right code
 print("my name is", name, "and my age is", age)
 
+#format function using
+print("my name is {} and my age is {}".format(name, age))
+
 #using f-string
 print(f"my name is {name} and my age is {age}")
 
