@@ -19,6 +19,13 @@ PP_Lab/
 
 ## Usage
 
+Clone the repo:
+
+```sh
+git clone https://github.com/Manas-Dikshit/Python_Programming-Lab.git
+```
+Go to the main folder
+
 Run any script with:
 
 ```sh
@@ -45,11 +52,7 @@ open lab2/Lab2.docx     # macOS
 xdg-open lab2/Lab2.docx # Linux
 ```
 
-Clone the repo:
 
-```sh
-git clone https://github.com/Manas-Dikshit/Python_Programming-Lab.git
-```
 
 ## License
 
