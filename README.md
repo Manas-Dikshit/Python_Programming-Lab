@@ -60,3 +60,10 @@ xdg-open lab2/Lab2.docx # Linux
 ## License
 
 For SUIIT 5th Sem CSE students — free to use for lab activities, assignments, and submissions.
+
+
+<div align="center">
+
+Made By MRD With **❤️**
+
+</div>
