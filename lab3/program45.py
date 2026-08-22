@@ -1,0 +1,16 @@
+# Accept employee details and display them in a formatted report.
+emp_id = input("Enter Employee ID   : ")
+name = input("Enter Name          : ")
+department = input("Enter Department    : ")
+designation = input("Enter Designation   : ")
+salary = float(input("Enter Salary        : "))
+
+print("\n" + "=" * 45)
+print(f"{'EMPLOYEE REPORT':^45}")
+print("=" * 45)
+print(f"{'Employee ID':<15}: {emp_id}")
+print(f"{'Name':<15}: {name}")
+print(f"{'Department':<15}: {department}")
+print(f"{'Designation':<15}: {designation}")
+print(f"{'Salary':<15}: Rs.{salary:>12.2f}")
+print("=" * 45)
