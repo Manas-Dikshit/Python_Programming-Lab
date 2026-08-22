@@ -17,6 +17,12 @@ PP_Lab/
 │   ├── Lab2.docx           # Lab 2 documentation
 │   └── test.py             # Testing of f-strings
 │
+├── lab3/
+│   ├── program01.py–09.py  # Input, arithmetic ops, area/perimeter, SI, temp conversion, map()
+│   ├── program10.py–20.py  # Formatted output: sep, end, \n, \t, precision, repr(), tables
+│   ├── program21.py–35.py  # Variables, operators, swapping, data types, assignment
+│   └── program36.py–45.py  # Applications: gross salary, currency, BMI, bills, reports
+│
 └── README.md
 ```
 
@@ -36,9 +42,11 @@ Run any script with:
 python lab1\assignment1.py
 python lab2\assignment2.py
 python lab2\labactivity1.py
+python lab3\program01.py
 
 # Linux / macOS
 python3 lab1/assignment1.py
+python3 lab3/program10.py
 ```
 
 Run a specific activity:
@@ -46,6 +54,8 @@ Run a specific activity:
 ```sh
 python lab2\labactivity2.py
 ```
+
+Lab 3 contains 35 standalone programs (`program01.py`–`program45.py`), one per question. Most accept input via `input()` — run them and follow the prompts.
 
 Open the documentation:
 
