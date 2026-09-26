@@ -19,6 +19,7 @@
 | **1** | Basics of `print()` | Patterns, newline handling |
 | **2** | Variables & Data Types | Assignment, dynamic typing, scope, `input()` / `print()` parameters |
 | **3** | Input, Output & Operators | 45 standalone programs — arithmetic, formatting, applications |
+| **4** | Operators | One program per operator group — arithmetic, relational, logical, bitwise, assignment, membership/identity, ternary |
 
 ## Structure
 
@@ -40,6 +41,15 @@ PP_Lab/
 │   ├── program10.py–20.py   # Formatted output: sep, end, \n, \t, precision, repr(), tables
 │   ├── program21.py–35.py   # Variables, operators, swapping, data types, assignment
 │   └── program36.py–45.py   # Applications: gross salary, currency, BMI, bills, reports
+│
+├── lab4/
+│   ├── arithmetic.py            # Lab 4: + - * / // % **
+│   ├── relational.py            # > < >= <= == !=
+│   ├── logical.py               # and, or, not
+│   ├── bitwise.py               # & | ^ ~ << >>
+│   ├── assignment.py            # = += -= *= /= //= %= **=
+│   ├── membership_identity.py   # in, not in, is, is not
+│   └── ternary.py               # value_if_true if condition else value_if_false
 │
 └── README.md
 ```
