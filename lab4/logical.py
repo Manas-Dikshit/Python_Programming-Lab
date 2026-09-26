@@ -1,5 +1,5 @@
 # Logical operators: and, or, not
-a = 17
+a = 38
 b = 5
 
 print("a =", a, " b =", b)

@@ -1,5 +1,5 @@
 # Bitwise operators: & | ^ ~ << >>
-a = 17
+a = 37
 b = 5
 
 print("a =", a, " b =", b)
