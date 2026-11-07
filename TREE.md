@@ -16,6 +16,9 @@ Python_Programming_Lab/
 ├── setupgit.md               # Personal notes: git setup steps (standalone)
 ├── pythonsetup.md            # Personal notes: Python install steps (standalone)
 │
+├── public/
+│   └── suiit-logo.png            College logo — embedded in README.md header
+│
 ├── lab1/
 │   └── assignment1.py            Basics of print() — patterns, newline handling
 │

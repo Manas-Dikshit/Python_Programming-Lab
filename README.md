@@ -1,3 +1,5 @@
+<img align="left" src="public/suiit-logo.png" alt="SUIIT college logo" width="120">
+
 <div align="center">
 
 # Python Programming Lab
