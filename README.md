@@ -1,8 +1,6 @@
-<img src="public/suiit-logo.png" alt="SUIIT college logo" width="120">
-
 <div align="center">
 
-# Python Programming Lab
+# <img src="public/suiit-logo.png" alt="SUIIT college logo" width="64" align="middle"> Python Programming Lab
 
 **Lab-wise code and documentation for SUIIT — CSE B.Tech 5th Semester**
 
