@@ -58,7 +58,9 @@ Python_Programming_Lab/
     ├── integer.py                int: + - // % **, bin/oct/hex, int('42')
     ├── float.py                  float: decimals, scientific notation, rounding
     ├── complex.py                complex: real/imag, abs(), conjugate, ** 2
-    ├── string.py                 str: index, slice, methods, f-strings
+    ├── string.py                str: index, slice, methods, f-strings
+    ├── classwork1.py            str ops on "Hello Suiit": slicing, case,
+    │                            search, strip/replace/join, f-string
     ├── boolean.py                bool: truthiness, and/or/not
     ├── list.py                   list: append/insert/remove/pop, sort
     ├── tuple.py                  tuple: immutable, count/index, unpacking

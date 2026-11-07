@@ -20,7 +20,7 @@ print("s[0:5] * 2:", s[0:5] * 2)    # repetition
 print("\n--- Membership ---")
 print("'Suiit' in s     :", "Suiit" in s)
 print("'x' not in s    :", "x" not in s)
-print("for loop over s :", [ch for ch in "AB"])   # iteration shown simply
+print("for loop over s :", " ".join(ch for ch in s))   # one char per slot
 
 print("\n--- Case methods ---")
 print("s.upper()      :", s.upper())
