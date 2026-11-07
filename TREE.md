@@ -17,7 +17,9 @@ Python_Programming_Lab/
 ├── pythonsetup.md            # Personal notes: Python install steps (standalone)
 │
 ├── public/
-│   └── suiit-logo.png            College logo — embedded in README.md header
+│   ├── suiit-logo.png            College logo — README.md header (left)
+│   └── python-logo.png           Python mark — README.md header (right),
+│                                 from Wikimedia (Python-logo-notext)
 │
 ├── lab1/
 │   └── assignment1.py            Basics of print() — patterns, newline handling
