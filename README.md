@@ -52,6 +52,19 @@ PP_Lab/
 │   ├── membership_identity.py   # in, not in, is, is not
 │   └── ternary.py               # value_if_true if condition else value_if_false
 │
+├── lab5/
+│   ├── datatypes.md         # Lab 5: theory notes on all data types
+│   ├── integer.py           # int: + - // % **, bin/oct/hex, int('42')
+│   ├── float.py             # float: decimals, scientific notation, rounding
+│   ├── complex.py           # complex: real/imag, abs(), conj, ** 2
+│   ├── string.py            # str: index, slice, methods, f-strings
+│   ├── boolean.py           # bool: truthiness, and/or/not
+│   ├── list.py              # list: append/insert/remove/pop, sort
+│   ├── tuple.py             # tuple: immutable, count/index, unpacking
+│   ├── set.py               # set: unique elements, | & - ^
+│   ├── dictionary.py        # dict: key→value, get/del, items()
+│   └── frozenset.py         # frozenset: immutable set
+│
 └── README.md
 ```
 
