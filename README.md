@@ -20,6 +20,7 @@
 | **2** | Variables & Data Types | Assignment, dynamic typing, scope, `input()` / `print()` parameters |
 | **3** | Input, Output & Operators | 45 standalone programs — arithmetic, formatting, applications |
 | **4** | Operators | One program per operator group — arithmetic, relational, logical, bitwise, assignment, membership/identity, ternary |
+| **5** | Data Types | One program per datatype — int, float, complex, str, bool, list, tuple, set, dict, frozenset + [datatypes.md](lab5/datatypes.md) study notes |
 
 ## Structure
 
