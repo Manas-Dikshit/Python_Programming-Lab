@@ -17,7 +17,10 @@ Python_Programming_Lab/
 ├── pythonsetup.md            # Personal notes: Python install steps (standalone)
 │
 ├── public/
-│   ├── suiit-logo.png            College logo — README.md header (left)
+│   ├── suiit-logo.png            College logo, white variant — README.md,
+│   │                             dark mode (invisible on light theme)
+│   ├── suiit-logo-color.png      College logo, coloured variant — README.md
+│   │                             light mode
 │   └── python-logo.png           Python mark — README.md header (right),
 │                                 from Wikimedia (Python-logo-notext)
 │
