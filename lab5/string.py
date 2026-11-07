@@ -1,5 +1,5 @@
 # String datatype: sequence of characters, immutable
-s = "Python Programming"
+s = "Manas Ranjan Dikshit"
 print("s        =", s)
 print("type(s)  :", type(s))
 
