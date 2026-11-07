@@ -1,4 +1,4 @@
-<img align="left" src="public/suiit-logo.png" alt="SUIIT college logo" width="120">
+<img src="public/suiit-logo.png" alt="SUIIT college logo" width="120">
 
 <div align="center">
 
