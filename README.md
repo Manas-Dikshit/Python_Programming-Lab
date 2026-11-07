@@ -24,49 +24,7 @@
 
 ## Structure
 
-```text
-PP_Lab/
-├── lab1/
-│   └── assignment1.py       # Lab 1: Basics (print, patterns, newline)
-│
-├── lab2/
-│   ├── assignment2.py       # Lab 2: Variables, data types, scope
-│   ├── labactivity1.py      # Assignment & dynamic typing
-│   ├── labactivity2.py      # Local & global scope
-│   ├── labactivity3.py      # input() and print() parameters
-│   ├── Lab2.docx            # Lab 2 documentation
-│   └── test.py              # Testing of f-strings
-│
-├── lab3/
-│   ├── program01.py–09.py   # Input, arithmetic ops, area/perimeter, SI, temperature, map()
-│   ├── program10.py–20.py   # Formatted output: sep, end, \n, \t, precision, repr(), tables
-│   ├── program21.py–35.py   # Variables, operators, swapping, data types, assignment
-│   └── program36.py–45.py   # Applications: gross salary, currency, BMI, bills, reports
-│
-├── lab4/
-│   ├── arithmetic.py            # Lab 4: + - * / // % **
-│   ├── relational.py            # > < >= <= == !=
-│   ├── logical.py               # and, or, not
-│   ├── bitwise.py               # & | ^ ~ << >>
-│   ├── assignment.py            # = += -= *= /= //= %= **=
-│   ├── membership_identity.py   # in, not in, is, is not
-│   └── ternary.py               # value_if_true if condition else value_if_false
-│
-├── lab5/
-│   ├── datatypes.md         # Lab 5: theory notes on all data types
-│   ├── integer.py           # int: + - // % **, bin/oct/hex, int('42')
-│   ├── float.py             # float: decimals, scientific notation, rounding
-│   ├── complex.py           # complex: real/imag, abs(), conj, ** 2
-│   ├── string.py            # str: index, slice, methods, f-strings
-│   ├── boolean.py           # bool: truthiness, and/or/not
-│   ├── list.py              # list: append/insert/remove/pop, sort
-│   ├── tuple.py             # tuple: immutable, count/index, unpacking
-│   ├── set.py               # set: unique elements, | & - ^
-│   ├── dictionary.py        # dict: key→value, get/del, items()
-│   └── frozenset.py         # frozenset: immutable set
-│
-└── README.md
-```
+The full repo tree (annotated, with change-impact rules) lives here: **[TREE.md](TREE.md)**
 
 ## Getting Started
 
