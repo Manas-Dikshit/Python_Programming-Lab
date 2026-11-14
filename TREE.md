@@ -72,9 +72,11 @@ Python_Programming_Lab/
 └── lab6/
     ├── strings.md                Theory notes: indexing, slicing, methods,
     │                             split/join, immutability
-    └── string.py                 String operations demo — expression indices
-                                  (s[1+5]), case, search, strip, split/join,
-                                  f-string, TypeError on s[0] = "R"
+    ├── string.py                 String operations demo — expression indices
+    │                             (s[1+5]), case, search, strip, split/join,
+    │                             f-string, TypeError on s[0] = "R"
+    └── string_operators.py       String operators: + * in % comparison,
+                                  += rebuild (original unchanged)
 ```
 
 ## Change impact — when you edit here … update there
