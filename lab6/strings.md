@@ -49,6 +49,18 @@ s[1 + 2:4 * 2]  # slice is s[3:8] -> 'as Ra'
 
 Out-of-range single index raises `IndexError`; a slice never does — it just clamps (`s[0:100]` returns the whole string).
 
+## Built-in functions
+
+| Function | Example | Result |
+|---|---|---|
+| `len(s)` | `len("abc")` | `3` |
+| `ord(c)` / `chr(n)` | `ord("A")` / `chr(97)` | `65` / `a` — code point ↔ character |
+| `sorted(s)` / `list(s)` | `sorted("bca")` | `['a', 'b', 'c']` |
+| `min(s)` / `max(s)` | `min("bca")` | `a` / `c` — by code point |
+| `str(x)` | `str(42)` | `"42"` — anything → text |
+| `repr(s)` / `ascii(s)` | `repr("hi")` | `'hi'` / `'caf\xe9'` — escaped form |
+| `s.encode()` / `bytes.decode()` | `"hi".encode()` | `b'hi'` — text ↔ bytes (UTF-8 default) |
+
 ## Common methods
 
 All methods return a **new** string; `s` is unchanged.
@@ -67,7 +79,11 @@ All methods return a **new** string; `s` is unchanged.
 | `startswith()` / `endswith()` | `s.startswith("Manas")` | `True` |
 | `partition(sep)` | `s.partition(" ")` | `('Manas', ' ', 'Ranjan Dikshit')` |
 | `isdigit()` / `isalpha()` / `isspace()` | `"42".isdigit()` | `True` |
+| `isalnum()` / `islower()` / `isupper()` / `istitle()` | `"ABC".isupper()` | `True` — predicates return bool |
+| `capitalize()` / `casefold()` | `"hi there".capitalize()` | `Hi there` — casefold is aggressive `lower()` |
+| `center()` / `ljust()` / `rjust()` | `"hi".center(6, "*")` | `**hi**` — padding |
 | `zfill(width)` | `"7".zfill(3)` | `007` |
+| `translate(table)` | `s.translate(str.maketrans("a", "A"))` | maps characters |
 
 `find()` returns `-1` when the substring is missing; `index()` raises `ValueError` instead. Prefer `in` for a plain yes/no test:
 

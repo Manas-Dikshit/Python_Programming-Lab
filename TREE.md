@@ -75,8 +75,8 @@ Python_Programming_Lab/
     ├── string.py                 String operations demo — expression indices
     │                             (s[1+5]), case, search, strip, split/join,
     │                             f-string, TypeError on s[0] = "R"
-    └── string_operators.py       String operators: + * in % comparison,
-                                  is, and/or/not, += and *= rebuild
+    ├── string_operators.py       String operators: + * in % comparison,
+    │                             is, and/or/not, += and *= rebuild
     └── string_functions.py       Built-ins (len, ord, chr, sorted, repr,
                                   ascii) + methods: case, padding, search,
                                   predicates, translate, formatting
