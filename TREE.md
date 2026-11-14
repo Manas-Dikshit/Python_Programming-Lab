@@ -54,7 +54,7 @@ Python_Programming_Lab/
 │   ├── membership_identity.py    in, not in, is, is not
 │   └── ternary.py                value_if_true if condition else value_if_false
 │
-└── lab5/
+├── lab5/
     ├── datatypes.md              Theory notes for every data type
     ├── integer.py                int: + - // % **, bin/oct/hex, int('42')
     ├── float.py                  float: decimals, scientific notation, rounding
@@ -68,6 +68,13 @@ Python_Programming_Lab/
     ├── set.py                    set: unique elements, | & - ^
     ├── dictionary.py             dict: key→value, get/del, items()
     └── frozenset.py              frozenset: immutable set
+
+└── lab6/
+    ├── strings.md                Theory notes: indexing, slicing, methods,
+    │                             split/join, immutability
+    └── string.py                 String operations demo — expression indices
+                                  (s[1+5]), case, search, strip, split/join,
+                                  f-string, TypeError on s[0] = "R"
 ```
 
 ## Change impact — when you edit here … update there
