@@ -44,10 +44,12 @@ Every script is standalone. Run any of them with:
 # Windows (Python 3)
 python lab1\assignment1.py
 python lab3\program01.py
+python lab6\string.py
 
 # Linux / macOS
 python3 lab1/assignment1.py
 python3 lab3/program10.py
+python3 lab6/string.py
 ```
 
 > **Note:** Most Lab 3 programs accept input via `input()` — run them in a terminal and follow the prompts.
@@ -61,6 +63,8 @@ start lab2\Lab2.docx     # Windows
 open lab2/Lab2.docx      # macOS
 xdg-open lab2/Lab2.docx  # Linux
 ```
+
+Theory notes live beside the labs: [lab5/datatypes.md](lab5/datatypes.md) (data types) and [lab6/strings.md](lab6/strings.md) (string operations).
 
 ## License
 

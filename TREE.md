@@ -12,6 +12,7 @@ Python_Programming_Lab/
 ├── LICENSE.md                # License statement (no other file depends on it)
 ├── CONTRIBUTING.md           # How to contribute / add programs
 ├── TREE.md                   # ← this file (mirror of the repo; keep in sync)
+├── .gitignore                # Ignore __pycache__, .venv, editor/OS files
 │
 ├── setupgit.md               # Personal notes: git setup steps (standalone)
 ├── pythonsetup.md            # Personal notes: Python install steps (standalone)
