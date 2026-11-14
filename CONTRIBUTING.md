@@ -22,7 +22,7 @@ Thanks for your interest in improving **PP_Lab**. Follow these simple guidelines
 5. **Commit** with a clear message:
 
    ```sh
-   git commit -m "Add lab 4 programs 1-10"
+   git commit -m "feat: add lab 4 programs 1-10"
    ```
 
 6. **Push** and open a **Pull Request**:
@@ -45,12 +45,23 @@ Thanks for your interest in improving **PP_Lab**. Follow these simple guidelines
 
 ## Commit Message Style
 
-| Type | Example |
-|------|---------|
-| Add | `Add lab 4 assignment` |
-| Fix | `Fix division error in program24.py` |
-| Docs | `Update README structure section` |
-| Refactor | `Simplify swap logic in program29.py` |
+Use `type: subject` — lowercase type, then a short imperative subject (no trailing period, ~50 chars):
+
+```text
+feat: add lab 6 string operations program
+fix: handle divide-by-zero in program24.py
+docs: update README lab overview table
+refactor: simplify swap logic in program29.py
+chore: ignore __pycache__ and editor files
+```
+
+| Type | Use for | Example |
+|------|---------|---------|
+| `feat` | New program, lab, or file | `feat: add lab 6 strings notes` |
+| `fix` | Correcting broken code | `fix: correct temperature conversion formula` |
+| `docs` | README, notes, `TREE.md`, comments | `docs: add lab6 to project tree` |
+| `refactor` | Same behavior, cleaner code | `refactor: extract area calculation` |
+| `chore` | Tooling, `.gitignore`, housekeeping | `chore: add Python .gitignore` |
 
 ## Reporting Issues
 
