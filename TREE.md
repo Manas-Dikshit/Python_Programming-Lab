@@ -55,20 +55,20 @@ Python_Programming_Lab/
 │   └── ternary.py                value_if_true if condition else value_if_false
 │
 ├── lab5/
-    ├── datatypes.md              Theory notes for every data type
-    ├── integer.py                int: + - // % **, bin/oct/hex, int('42')
-    ├── float.py                  float: decimals, scientific notation, rounding
-    ├── complex.py                complex: real/imag, abs(), conjugate, ** 2
-    ├── string.py                str: index, slice, methods, f-strings
-    ├── classwork1.py            str ops on "Hello Suiit": slicing, case,
-    │                            search, strip/replace/join, f-string
-    ├── boolean.py                bool: truthiness, and/or/not
-    ├── list.py                   list: append/insert/remove/pop, sort
-    ├── tuple.py                  tuple: immutable, count/index, unpacking
-    ├── set.py                    set: unique elements, | & - ^
-    ├── dictionary.py             dict: key→value, get/del, items()
-    └── frozenset.py              frozenset: immutable set
-
+│   ├── datatypes.md              Theory notes for every data type
+│   ├── integer.py                int: + - // % **, bin/oct/hex, int('42')
+│   ├── float.py                  float: decimals, scientific notation, rounding
+│   ├── complex.py                complex: real/imag, abs(), conjugate, ** 2
+│   ├── string.py                 str: index, slice, methods, f-strings
+│   ├── classwork1.py             str ops on "Hello Suiit": slicing, case,
+│   │                             search, strip/replace/join, f-string
+│   ├── boolean.py                bool: truthiness, and/or/not
+│   ├── list.py                   list: append/insert/remove/pop, sort
+│   ├── tuple.py                  tuple: immutable, count/index, unpacking
+│   ├── set.py                    set: unique elements, | & - ^
+│   ├── dictionary.py             dict: key→value, get/del, items()
+│   └── frozenset.py              frozenset: immutable set
+│
 └── lab6/
     ├── strings.md                Theory notes: indexing, slicing, methods,
     │                             split/join, immutability
