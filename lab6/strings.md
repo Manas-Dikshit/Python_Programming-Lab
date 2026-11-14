@@ -98,6 +98,21 @@ f"{s} has {len(s)} characters"    # f-string, Python 3.6+
 
 Use f-strings by default; they are the shortest and fastest.
 
+## Operators (vs methods)
+
+Strings have operators too; unlike methods they need no parentheses. `[i]`, `[a:b]` are slicing, not operators.
+
+| Operator | Example | Result |
+|---|---|---|
+| `+` | `"ab" + "cd"` | `abcd` — concatenate |
+| `*` | `"py" * 3` | `pypypy` — repeat |
+| `in` / `not in` | `"ell" in "Hello"` | `True` — substring test |
+| `%` | `"%s scored %d" % ("Manas", 91)` | `Manas scored 91` — old-style formatting |
+| `==` / `!=` | `"a" == "A"` | `False` — content comparison |
+| `<` `>` `<=` `>=` | `"Z" < "a"` | `True` — lexicographic (code point) |
+
+`%s` takes a string, `%d` an integer, `%f` a float; widths and alignment: `"|%10s|"` right, `"|%-10s|"` left. Prefer f-strings for new code.
+
 ## Comparing strings
 
 `==` compares content, `is` compares identity (rarely what you want). Ordering is by Unicode code point, so `"Z" < "a"` is `True` and uppercase sorts before lowercase. Compare case-insensitively with `.lower()` on both sides.
