@@ -110,6 +110,9 @@ Strings have operators too; unlike methods they need no parentheses. `[i]`, `[a:
 | `%` | `"%s scored %d" % ("Manas", 91)` | `Manas scored 91` — old-style formatting |
 | `==` / `!=` | `"a" == "A"` | `False` — content comparison |
 | `<` `>` `<=` `>=` | `"Z" < "a"` | `True` — lexicographic (code point) |
+| `is` / `is not` | `x is z` | object identity, **not** content — use `==` for text |
+| `and` / `or` / `not` | `"" or "default"` | returns an operand; `""` is falsy → `default` |
+| `+=` / `*=` | `d += "ha"` | rebuilds a new string (same as `d = d + "ha"`) |
 
 `%s` takes a string, `%d` an integer, `%f` a float; widths and alignment: `"|%10s|"` right, `"|%-10s|"` left. Prefer f-strings for new code.
 

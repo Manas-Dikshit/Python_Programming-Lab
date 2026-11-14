@@ -76,7 +76,7 @@ Python_Programming_Lab/
     │                             (s[1+5]), case, search, strip, split/join,
     │                             f-string, TypeError on s[0] = "R"
     └── string_operators.py       String operators: + * in % comparison,
-                                  += rebuild (original unchanged)
+                                  is, and/or/not, += and *= rebuild
 ```
 
 ## Change impact — when you edit here … update there
