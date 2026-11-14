@@ -21,7 +21,7 @@
 | **3** | Input, Output & Operators | 45 standalone programs — arithmetic, formatting, applications |
 | **4** | Operators | One program per operator group — arithmetic, relational, logical, bitwise, assignment, membership/identity, ternary |
 | **5** | Data Types | One program per datatype — int, float, complex, str, bool, list, tuple, set, dict, frozenset + [datatypes.md](lab5/datatypes.md) study notes |
-| **6** | String Operations | Indexing & slicing (including expression indices), case conversion, search, replace/strip, split/join, immutability + string operators (`+`, `*`, `in`, `%`, comparisons, `is`, logical) + [strings.md](lab6/strings.md) study notes |
+| **6** | String Operations | Indexing & slicing (incl. expression indices), string operators (`+`, `*`, `in`, `%`, comparisons, `is`), built-in functions & methods (len, ord/chr, predicates, padding, translate) + [strings.md](lab6/strings.md) study notes |
 
 ## Structure
 
