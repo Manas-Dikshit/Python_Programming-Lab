@@ -12,6 +12,12 @@ print("s[0:5]       :", s[0:5])        # slicing
 print("s[::-1]      :", s[::-1])        # reverse
 print("s[::2]       :", s[::2])        # every second character
 
+# Index can be any expression, it is evaluated first
+print("s[1+5]       :", s[1 + 5])      # same as s[6]
+print("s[2*3]       :", s[2 * 3])      # same as s[6]
+print("s[len(s)-1]  :", s[len(s) - 1]) # last character
+print("s[1+2:4*2]   :", s[1 + 2:4 * 2]) # expression in slice too
+
 # Case conversion
 print("s.upper()    :", s.upper())
 print("s.lower()    :", s.lower())
