@@ -2,6 +2,10 @@
 nums = [1, 2, 2, 3]
 print("start        :", nums)
 
+# len() is a built-in function, not a list method
+print("len(nums)    :", len(nums))
+print("len([1,2,3]) :", len([1, 2, 3]))
+
 nums.append(4)              # add at the end
 print("append(4)    :", nums)
 
@@ -31,6 +35,7 @@ print("copy()       :", copy, "| same object:", copy is nums)
 
 copy.clear()
 print("clear()      :", copy, "| nums intact:", nums)
+print("len(copy)    :", len(copy))
 
 # sort() with options
 words = ["apple", "kiwi", "banana"]
