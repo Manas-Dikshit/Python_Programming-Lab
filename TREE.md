@@ -96,8 +96,11 @@ Python_Programming_Lab/
                                   string is immutable
     ├── list_delete.py            del by index and slice [1:3], remove() by
                                   value, pop(), clear(), missing -> ValueError
-    └── list_iteration.py         for, while, range(len), enumerate, nested
+    ├── list_iteration.py         for, while, range(len), enumerate, nested
                                   loops, comprehension, remove over a copy
+    └── list_methods.py           all 11 list methods: append, insert, extend,
+                                  count, index, remove, pop, reverse, sort,
+                                  copy, clear + sort key/reverse
 ```
 
 ## Change impact — when you edit here … update there
