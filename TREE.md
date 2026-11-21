@@ -88,9 +88,11 @@ Python_Programming_Lab/
     │                             item/slice assignment, unpacking
     ├── list_operations.py        create/add/remove/search/sort/copy,
     │                             enumerate, zip, comprehensions
-    └── list_datatypes.py         lists of int/float/str/bool/mixed,
-                                  nested lists, list of tuples/dicts
-                                  with operations on each
+    ├── list_datatypes.py         lists of int/float/str/bool/mixed,
+    │                             nested lists, list of tuples/dicts
+    │                             with operations on each
+    └── list_mutability.py        basic in-place change: nums[1], append,
+                                  pop, id() unchanged; string is immutable
 ```
 
 ## Change impact — when you edit here … update there
