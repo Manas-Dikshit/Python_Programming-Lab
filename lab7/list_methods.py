@@ -9,6 +9,7 @@ print("max(nums)    :", max(nums))
 print("min(nums)    :", min(nums))
 print("sum(nums)    :", sum(nums))
 print("sorted([3,1,2]):", sorted([3, 1, 2]))   # new list; original untouched
+print("sorted(desc) :", sorted([3, 1, 2], reverse=True))  # True = reverse order
 
 nums.append(4)              # add at the end
 print("append(4)    :", nums)
