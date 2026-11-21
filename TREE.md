@@ -84,6 +84,8 @@ Python_Programming_Lab/
                                   and "happy childrens day"
 │
 └── lab7/
+    ├── lists.md                  Theory notes: indexing, mutability,
+    │                             operators, methods, iteration, comprehensions
     ├── list_operators.py         + * in [] comparison is logical,
     │                             item/slice assignment, unpacking
     ├── list_operations.py        create/add/remove/search/sort/copy,
