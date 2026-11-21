@@ -22,7 +22,7 @@
 | **4** | Operators | One program per operator group — arithmetic, relational, logical, bitwise, assignment, membership/identity, ternary |
 | **5** | Data Types | One program per datatype — int, float, complex, str, bool, list, tuple, set, dict, frozenset + [datatypes.md](lab5/datatypes.md) study notes |
 | **6** | String Operations | Indexing & slicing (incl. expression indices), string operators (`+`, `*`, `in`, `%`, comparisons, `is`), built-in functions & methods (len, ord/chr, predicates, padding, translate), `upper`/`find`/`count` demos + [strings.md](lab6/strings.md) study notes |
-| **7** | Lists | Operators (`+`, `*`, `in`, `[]`, comparison, `is`, unpacking) and operations (append/extend/insert, remove/pop/del/clear, sort/reverse, copy, len()/max()/min()/sum()/sorted(reverse=True), methods reference, enumerate/zip, comprehensions, iteration, advanced map/filter/reduce/key=/deepcopy); lists of int/float/str/bool, mixed, nested, tuples and dicts; basic mutability demo + [lists.md](lab7/lists.md) study notes |
+| **7** | Lists | Operators (`+`, `*`, `in`, `[]`, comparison, `is`, unpacking) and operations (append/extend/insert, remove/pop/del/clear, sort/reverse, copy, len()/max()/min()/sum()/sorted(reverse=True), methods reference, enumerate/zip, comprehensions, iteration, advanced map/filter/reduce/key=/deepcopy); lists of int/float/str/bool, mixed, nested, tuples and dicts; basic mutability demo + [lists.md](lab7/lists.md) study notes; [assignment/](lab7/assignment/) — 31 numbered question programs in 5 section folders |
 
 ## Structure
 
