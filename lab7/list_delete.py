@@ -21,3 +21,8 @@ except ValueError as e:
 
 nums.clear()          # remove all items
 print("clear()     :", nums)
+
+# delete a range with a slice: the stop index is excluded
+scores = [10, 20, 30, 40, 50]
+del scores[1:3]       # removes index 1 and 2 (20 and 30)
+print("del [1:3]   :", scores)
