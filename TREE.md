@@ -101,7 +101,7 @@ Python_Programming_Lab/
     └── list_methods.py           all 11 list methods: append, insert, extend,
                                   count, index, remove, pop, reverse, sort,
                                   copy, clear + len()/max()/min()/sum()/
-                                  sorted() built-ins + sort key/reverse
+                                  sorted() built-ins + sort key/reverse=True
 ```
 
 ## Change impact — when you edit here … update there
