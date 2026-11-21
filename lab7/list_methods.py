@@ -2,9 +2,11 @@
 nums = [1, 2, 2, 3]
 print("start        :", nums)
 
-# len() is a built-in function, not a list method
+# len(), max(), min() are built-in functions, not list methods
 print("len(nums)    :", len(nums))
 print("len([1,2,3]) :", len([1, 2, 3]))
+print("max(nums)    :", max(nums))
+print("min(nums)    :", min(nums))
 
 nums.append(4)              # add at the end
 print("append(4)    :", nums)
