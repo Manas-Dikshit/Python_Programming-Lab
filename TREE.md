@@ -86,8 +86,11 @@ Python_Programming_Lab/
 └── lab7/
     ├── list_operators.py         + * in [] comparison is logical,
     │                             item/slice assignment, unpacking
-    └── list_operations.py        create/add/remove/search/sort/copy,
-                                  enumerate, zip, comprehensions
+    ├── list_operations.py        create/add/remove/search/sort/copy,
+    │                             enumerate, zip, comprehensions
+    └── list_datatypes.py         lists of int/float/str/bool/mixed,
+                                  nested lists, list of tuples/dicts
+                                  with operations on each
 ```
 
 ## Change impact — when you edit here … update there
