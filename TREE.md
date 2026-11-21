@@ -94,8 +94,8 @@ Python_Programming_Lab/
     ├── list_mutability.py        basic in-place change: nums[1], append,
                                   pop, two positions at once, id() unchanged;
                                   string is immutable
-    └── list_delete.py            del by index, remove() by value, pop() by
-                                  index/last, clear(), missing -> ValueError
+    └── list_delete.py            del by index and slice [1:3], remove() by
+                                  value, pop(), clear(), missing -> ValueError
 ```
 
 ## Change impact — when you edit here … update there
