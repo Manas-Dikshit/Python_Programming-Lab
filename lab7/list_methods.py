@@ -2,12 +2,13 @@
 nums = [1, 2, 2, 3]
 print("start        :", nums)
 
-# len(), max(), min(), sum() are built-in functions, not list methods
+# len(), max(), min(), sum(), sorted() are built-in functions, not methods
 print("len(nums)    :", len(nums))
 print("len([1,2,3]) :", len([1, 2, 3]))
 print("max(nums)    :", max(nums))
 print("min(nums)    :", min(nums))
 print("sum(nums)    :", sum(nums))
+print("sorted([3,1,2]):", sorted([3, 1, 2]))   # new list; original untouched
 
 nums.append(4)              # add at the end
 print("append(4)    :", nums)
