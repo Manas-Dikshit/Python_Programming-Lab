@@ -69,7 +69,7 @@ Python_Programming_Lab/
 │   ├── dictionary.py             dict: key→value, get/del, items()
 │   └── frozenset.py              frozenset: immutable set
 │
-└── lab6/
+├── lab6/
     ├── strings.md                Theory notes: indexing, slicing, methods,
     │                             split/join, immutability
     ├── string.py                 String operations demo — expression indices
@@ -82,6 +82,12 @@ Python_Programming_Lab/
     │                             predicates, translate, formatting
     └── string_case_search.py     upper(), find(), count() on "hello suiit"
                                   and "happy childrens day"
+│
+└── lab7/
+    ├── list_operators.py         + * in [] comparison is logical,
+    │                             item/slice assignment, unpacking
+    └── list_operations.py        create/add/remove/search/sort/copy,
+                                  enumerate, zip, comprehensions
 ```
 
 ## Change impact — when you edit here … update there
