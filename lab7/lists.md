@@ -93,6 +93,8 @@ All 11 methods of `list`:
 
 `remove(x)` raises `ValueError` and `index(x)` raises `ValueError` if the item is missing. `sort()` changes the list and returns `None`; `sorted()` returns a new list — assigning `lst = lst.sort()` makes `lst` become `None`.
 
+`extend()` takes **any iterable** — `lst.extend((1, 2))`, `lst.extend("ab")` (two characters), `lst.extend(range(3))`. `append()` adds one object: `lst.append([1, 2])` creates a nested list.
+
 ## Iteration
 
 ```python
