@@ -91,9 +91,11 @@ Python_Programming_Lab/
     ├── list_datatypes.py         lists of int/float/str/bool/mixed,
     │                             nested lists, list of tuples/dicts
     │                             with operations on each
-    └── list_mutability.py        basic in-place change: nums[1], append,
+    ├── list_mutability.py        basic in-place change: nums[1], append,
                                   pop, two positions at once, id() unchanged;
                                   string is immutable
+    └── list_delete.py            del by index, remove() by value, pop() by
+                                  index/last, clear(), missing -> ValueError
 ```
 
 ## Change impact — when you edit here … update there
