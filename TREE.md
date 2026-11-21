@@ -100,7 +100,8 @@ Python_Programming_Lab/
                                   loops, comprehension, remove over a copy
     └── list_methods.py           all 11 list methods: append, insert, extend,
                                   count, index, remove, pop, reverse, sort,
-                                  copy, clear + len() + sort key/reverse
+                                  copy, clear + len()/max()/min() built-ins
+                                  + sort key/reverse
 ```
 
 ## Change impact — when you edit here … update there
