@@ -98,7 +98,13 @@ Python_Programming_Lab/
                                   value, pop(), clear(), missing -> ValueError
     ├── list_iteration.py         for, while, range(len), enumerate, nested
                                   loops, comprehension, remove over a copy
-    └── list_methods.py           all 11 list methods: append, insert, extend,
+    ├── list_methods.py           all 11 list methods: append, insert, extend,
+    │                             count, index, remove, pop, reverse, sort,
+    │                             copy, clear + len()/max()/min()/sum()/
+    │                             sorted() built-ins + sort key/reverse=True
+    └── list_advanced.py          map/filter/reduce, key= sorting, any/all,
+                                  enumerate, zip(*), flatten, unpacking,
+                                  shallow vs deep copy
                                   count, index, remove, pop, reverse, sort,
                                   copy, clear + len()/max()/min()/sum()/
                                   sorted() built-ins + sort key/reverse=True
