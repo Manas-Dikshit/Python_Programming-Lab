@@ -92,7 +92,8 @@ Python_Programming_Lab/
     │                             nested lists, list of tuples/dicts
     │                             with operations on each
     └── list_mutability.py        basic in-place change: nums[1], append,
-                                  pop, id() unchanged; string is immutable
+                                  pop, two positions at once, id() unchanged;
+                                  string is immutable
 ```
 
 ## Change impact — when you edit here … update there
