@@ -20,6 +20,17 @@ print("insert(1, 9) :", nums)
 nums.extend([5, 6])         # add every item from another list
 print("extend([5,6]):", nums)
 
+# extend() takes any iterable; append() adds one item (even a whole list)
+more = [1]
+more.extend((2, 3))         # tuple
+more.extend("ab")           # string -> separate characters
+more.extend(range(2))       # range
+print("extend types :", more)
+
+other = [1]
+other.append([2, 3])        # nested list, unlike extend
+print("append list  :", other)
+
 print("count(2)     :", nums.count(2))
 print("index(3)     :", nums.index(3))
 
