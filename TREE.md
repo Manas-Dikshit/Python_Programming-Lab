@@ -104,9 +104,15 @@ Python_Programming_Lab/
     │                             count, index, remove, pop, reverse, sort,
     │                             copy, clear, extend variants + len()/max()/
     │                             min()/sum()/sorted() + sort key/reverse=True
-    └── list_advanced.py          map/filter/reduce, key= sorting, any/all,
-                                  enumerate, zip(*), flatten, unpacking,
-                                  shallow vs deep copy
+    ├── list_advanced.py          map/filter/reduce, key= sorting, any/all,
+    │                             enumerate, zip(*), flatten, unpacking,
+    │                             shallow vs deep copy
+    └── assignment/               31 questions, one file per question
+        ├── indexing_slicing/     q01.py … q06.py
+        ├── string_methods/       q07.py … q13.py
+        ├── classification_formatting/  q14.py … q19.py
+        ├── list_methods_sequences/     q20.py … q26.py
+        └── programs_strings_lists/     q27.py … q31.py
 ```
 
 ## Change impact — when you edit here … update there
