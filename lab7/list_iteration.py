@@ -1,5 +1,5 @@
 # Iteration in a list: for, while, range, enumerate, nested loops
-names = ["Manas", "Ravi", "Suiit"]
+names = ["Manas", "deba", "Suiit"]
 
 # simple for loop over values
 for name in names:
